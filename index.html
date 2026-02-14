@@ -5,301 +5,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+
+
 
     <title>Royal spice resturant</title>
 </head>
 
 <body>
+
+    <!-- header -->
     <header>
-        <nav>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEo00V7nupdRZVJT308DQgAn95IwjCoHXrnw&s"
-                alt="royal spice logo" height="70">
-            <center>
-                <span>
-                    <a href="#home">Home</a>
-                    <a href="#about-us">About us</a>
-                    <a href="#menu">Menu</a>
-                    <a href="#services">Services</a>
-                    <a href="#contact">contact</a>
-                </span>
-            </center>
-            <button>
-                login
-            </button>
+        <nav class="navbar">
+            <img src="/slazzer-preview-vhhjl.png" alt="royal spice logo" height="110">
+            <span>
+                <a href="index.html">Home</a>
+                <a href="index.html">Shop</a>
+
+                <a href="about-us.html">About us</a>
+                <a href="menu.html"></a>
+                <a href="services.html">Services</a>
+                <a href="contact-us.html">contact</a>
+            </span>
         </nav>
     </header>
 
-    <main>
-        <section id="home">
-            <center>
-                <h2>Home</h2>
-            </center>
-            <figure>
-                <img src="https://images.squarespace-cdn.com/content/v1/66413b9072b91678aee96e56/91860bc6-1c09-43f1-a015-3a9cd30f7354/IMG_1839.jpeg"
-                    alt="" height="500">
-                <figcaption>Sitting area</figcaption>
-            </figure>
-            <h3>Welcome to Royal Spice Restaurant</h3>
-            <p>Royal Spice Restaurant is a family-friendly restaurant that offers fresh, hygienic, and delicious food.
-                Our focus is on quality, taste, and customer satisfaction. <br>
 
+
+    <main>
+
+        <!-- hero section -->
+
+
+        <section class="hero" id="hero">
+            <div>
+                <h1 data-aos="fade-down"> Experience <span>Royal</span> Spice</h1>
+                <p data-aos="fade-right">Royal Spice Restaurant offers a perfect balance between traditional flavors and
+                    modern dining
+                    standards. <br> <br>
+                    <a data-aos="fade-up" class="btn" href="/menu.html">View our Menu</a>
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="introduction">
+            <h3>About Us </h3>
+            <div class="red-line"></div>
+            <p>Royal Spice Restaurant is a family-friendly restaurant that offers fresh, hygienic, and delicious food.
+                Our focus is on quality, taste, and customer satisfaction.
                 Since 2016, we have been proudly serving our customers with traditional flavors and excellent service.
             </p>
+        </section>
+
+
+        <section class="sec1">
+            <div class="mission card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"">
+                <h3> <i class=" fa-solid fa-bullseye" style="color: #c52c2c;"></i>&nbsp; Our Mission</h3>
+                <p>Our mission is to deliver exceptional food quality and service by combining authentic flavors with
+                    modern dining standards. We aim to provide a welcoming environment where every guest enjoys fresh,
+                    flavorful meals prepared with care, consistency, and a commitment to customer satisfaction.</p>
+            </div>
+            <div class=" choose card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"">
+                <h3> <i class=" fa-solid fa-circle-check" style="color: #c52c2c;"></i>Why Choose Us</h3>
+                <!-- <span><i class=" fa-solid fa-check" style="color: #c52c2c;"></i></span><span>Fresh and Halal
+                    Food</span><br>
+
+                <span><i class="fa-solid fa-check" style="color: #c52c2c;"></i></span><span>Fresh and Halal
+                    Food</span><br>
+                <span><i class="fa-solid fa-check" style="color: #c52c2c;"></i></span><span>Fresh and Halal
+                    Food</span><br>
+                <span><i class="fa-solid fa-check" style="color: #c52c2c;"></i></span><span>Fresh and Halal
+                    Food</span><br>
+                <span><i class="fa-solid fa-check" style="color: #c52c2c;"></i></span><span>Fresh and Halal
+                    Food</span><br> -->
+                <p><i class="fa-solid fa-check" style="color: #c52c2c;"></i>Fresh and Halal Food</p>
+                <p><i class="fa-solid fa-check" style="color: #c52c2c;"></i>Clean and Hygienic Environment</p>
+                <p><i class="fa-solid fa-check" style="color: #c52c2c;"></i>Family-Friendly Seating</p>
+                <p><i class="fa-solid fa-check" style="color: #c52c2c;"></i>Friendly and Trained Staff</p>
+
+
+                <!-- <ul>
+                    <li>Fresh and Halal Food</li>
+                    <li>Clean and Hygienic Environment</li>
+                    <li>Family-Friendly Seating</li>
+                    <li>Friendly and Trained Staff</li>
+                </ul><br> -->
+            </div>
+        </section>
+
+
+        <!-- popular dishes section -->
+
+        <section class="special-dishes">
+            <div class="popular-heading">
+                <h3>Our Special Dishes</h3>
+                <div class="red-line"></div>
+                <p>Customer favorites loved by families and food enthusiasts</p>
+            </div>
+
+            <div class="dish-container">
+
+                <!-- data-aos="zoom-in" -->
+                <div class="box">
+                    <div class="img-box">
+                        <img class="dish-img"
+                            src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg"
+                            alt="chiken biryani">
+                    </div>
+                    <div>
+                        <h3>Chicken Biryani</h3>
+                        <p>Rs. 350</p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="">
+                        <img class="dish-img"
+                            src="https://static01.nyt.com/images/2022/07/28/dining/zs-chicken-karahi/merlin_207647955_52cb3fc0-c6c7-467e-ab06-bb9d74cc3922-mediumSquareAt3X.jpg">
+
+                    </div>
+                    <div>
+                        <h3>Chicken Karahi(Full)</h3>
+                        <p>Rs. 1100</p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="">
+                        <img class="dish-img"
+                            src="https://www.chilitochoc.com/wp-content/uploads/2022/11/chicken-malai-boti-with-green-chutney-1.jpg"
+                            alt="chiken biryani">
+
+                    </div>
+                    <div>
+                        <h3>Malai Boti</h3>
+                        <p>Rs. 580</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="ready-img">
+            <div class="ready">
+                <h2>Ready to Order?</h2>
+                <p>Enjoy delicious meals delivered to your doorstep</p>
+                <div class="ready-btn">
+                    <a class="btn" href="contact-us.html ">Order Now</a>
+                    <!-- <a class="btn" href="contact-us.html"> Contact Us</a> -->
+                </div>
+
+
+            </div>
 
 
 
         </section>
-        <section>
-            <h3>Our Mission</h3>
-            <p>Our mission is to provide high-quality food at affordable prices in a clean and comfortable
-                environment.</p>
-
-            <h3>Why Choose Us</h3>
-            <ul>
-                <li>Fresh and Halal Food</li>
-                <li>Clean and Hygienic Environment</li>
-                <li>Family-Friendly Seating</li>
-                <li>Friendly and Trained Staff</li>
-            </ul><br>
-        </section>
-        <hr>
-        <hr>
-        <section id="menu">
-            <center>
-                <h2>Menu</h2>
-            </center>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTRU_gMrmbLDmzfYjYOPTLSc9oMYNMajRugg&s"
-                    alt="desi food" height="250">
-                <figcaption></figcaption>
-            </figure>
-
-            <h3>Desi Food </h3>
-            <p>Chicken Biryani – Rs. 350
-            </p>
-            <p>Beef Pulao – Rs. 420
-            </p>
-            <p>Chicken Karahi (Full) – Rs. 1100
-            </p>
-            <p>Daal Makhni – Rs. 280</p>
-            <hr>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcRFmP6ganpYaBY9UssiJeCSMHcpAGNMFWuQ&s"
-                    alt="">
-            </figure>
-
-            <h3>BBQ Items</h3>
-            <p>Chicken Tikka – Rs. 380
-            </p>
-            <p>Beef Kabab – Rs. 450
-            </p>
-            <p>Malai Boti – Rs. 520</p>
-            <hr>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGRFigKh09pgg9MeCk4-uiWstMapLjimW3Yw&s"
-                    alt="bbq food">
-            </figure>
-            <h3>Fast Food</h3>
-            <p>Zinger Burger – Rs. 480
-            </p>
-            <p>Chicken Shawarma – Rs. 300
-            </p>
-            <p>Club Sandwich – Rs. 420</p>
-            <hr>
-
-            <figure>
-                <img src="https://cdn.thefork.com/tf-lab/image/upload/w_640,c_fill,q_auto,f_auto/pg_1/menu/12e48d12-0864-4478-bc08-151c152cded3/540005e4-0d60-4bb6-be6c-fc3eb4600b30.jpg"
-                    alt="drinks" height="250">
-            </figure>
-            <h3>Drinks</h3>
-            <p>Soft Drink – Rs. 100
-            </p>
-            <p>Fresh Lime – Rs. 150
-            </p>
-            <p>Mineral Water – Rs. 80</p>
-            <hr>
-
-            <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Desserts.jpg" alt="desserts" height="300">
-            </figure>
-            <h3>Desserts</h3>
-            <p>Gulab Jamun – Rs. 180
-            </p>
-            <p>
-                Kheer – Rs. 200
-
-            </p>
-            <p>Chocolate Cake – Rs. 250</p>
-
-
-
-
-
-
-        </section>
-        <hr>
-        <hr>
-
-        <section id="about-us">
-            <center>
-                <h2>ABOUT US</h2>
-
-            </center>
-
-            <img src="https://order.royaliceandspice.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1746689786-f.jpg%3Fver%3D10&w=3840&q=90"
-                alt="interior pic" height="200">
-
-            <h3>About Royal Spice Restaurant</h3>
-            <p>Royal Spice Restaurant was established in 2016 with the goal of serving tasty, hygienic, and high-quality
-                food. <br>
-
-                Our experienced chefs prepare every dish using fresh ingredients and traditional recipes. <br>
-
-                We believe that good food creates good memories.</p>
-            <h3>Our Values</h3>
-            <ul>
-                <li>Quality Food</li>
-                <li>Customer Satisfaction</li>
-                <li>Cleanliness</li>
-                <li>Honest Service</li>
-            </ul>
-
-
-        </section>
-        <hr>
-        <hr>
-        <section id="services">
-            <center>
-                <h2>Services</h2>
-            </center>
-            <p>At Royal Spice Restaurant, we offer a range of services to make your dining experience comfortable and
-                enjoyable.</p>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96xNa_CaY7GHsSsttAgHaIYH-EIY_cb2Hng&s"
-                    alt=""><img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFj5fQgfB2TtIHtoV8zi3jLfF2mdkJO8L3g&s"
-                    alt="" width="194"><img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzIOQQp17XV1rSVFzyaBHh55yVWAwuSmbZBQ&s"
-                    alt="" height="194"><img
-                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/31/4e/fe/royal-spice-indian-restaurant.jpg?w=900&h=-1&s=1"
-                    alt="" height="194">
-            </figure>
-            <h3>Dine-In Service</h3>
-            <p>Our restaurant offers a clean, spacious, and family-friendly dine-in environment.
-                Customers can enjoy freshly prepared meals in a peaceful atmosphere with comfortable seating and
-                attentive staff. <br>
-
-                We maintain high standards of cleanliness to ensure a pleasant dining experience.</p>
-
-            <h3>Takeaway Service</h3>
-            <p>For customers who prefer to enjoy food at home, we offer a quick and reliable takeaway service. <br>
-                All food items are carefully packed to maintain freshness and taste. <br>
-
-                Customers can place takeaway orders directly at the counter.</p>
-
-            <h3>Home Delivery</h3>
-            <p>Royal Spice Restaurant provides fast and efficient home delivery service.
-                Our delivery system ensures that food reaches customers hot, fresh, and on time. <br>
-
-                This service is ideal for busy individuals and families.</p>
-            <h3>Events and Group Arrangements</h3>
-            <p>We offer special arrangements for birthday parties, family gatherings, and small events. <br>
-                Our team assists in organizing seating and food services according to customer requirements.</p>
-            <h3>Customer Support and Assistance </h3>
-
-            <p>Our staff is always available to assist customers with inquiries, feedback, or complaints. <br>
-                We believe in providing respectful and professional customer support at all times.</p>
-        </section>
-        <hr>
-        <hr>
-
-
-
-        <section id="contact">
-            <center>
-                <h2>Contact Us</h2>
-            </center>
-
-            <p>
-                <i class="fas fa-phone"></i> 0301-1234567
-            </p>
-            <p>
-                <i class="fas fa-envelope"></i> royalspice@gmail.com
-            </p>
-            <p>
-                <i class="fas fa-map-marker-alt"></i> Main Boulevard, Gulberg, Lahore
-            </p>
-            <p>You can contact us regarding reservations, inquiries, complaints, or suggestions. We always respond
-                promptly to customer messages.</p>
-
-            <section>
-                <center>
-                    <h2>Customer Feedback</h2>
-                    <p>We value our customers and their opinions. Your feedback helps us improve our food quality,
-                        service, and overall dining experience. <br> Whether you enjoyed our meal or have suggestions
-                        for improvement, we would love to hear from you.</p>
-                </center>
-                <fieldset>
-                    <legend>Feedback </legend>
-                    <form action="">
-                        <label for="name1"> Full Name:</label>
-                        <input type="text" id="name1" placeholder="enter your name"> <br><br>
-                        <label for="phone1">Phone Number:</label>
-                        <input type="tel" id="phone1" placeholder="enter phone "><br><br>
-                        <label for="email1">Email Address:</label>
-                        <input type="email" id="email1" placeholder="enter email"><br><br>
-                        <span> <strong>Rate Us :</strong></span> <span><i class="fa-regular fa-star"></i><i
-                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
-                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span><br><br>
-                        <textarea name="feedback" id="feedback"
-                            placeholder="Please share your experience with Royal Spice Restaurant. Your feedback is important to us."
-                            rows="6" cols="40"></textarea>
-
-
-
-
-                    </form>
-                </fieldset>
-            </section>
-
-        </section>
-
-        <hr>
-
-        <section>
-            <center>
-                <h2>Order Now</h2>
-            </center>
-
-            <fieldset>
-                <legend>Order Form</legend>
-                <form action="">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="enter your name"><br><br>
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" placeholder="enter phone "><br><br>
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" placeholder="enter email"><br><br>
-                    <label for="adress">Delivery Address:</label>
-                    <input type="text" id="adress" placeholder="enter your adress"> <br><br>
-                    <label for=" items">Selected Items:</label>
-                    <input type="text" id="items" placeholder="enter selected items"><br><br>
-                    <label for="time">Preferred Delivery Time:</label>
-                    <select name="time" id="time">
-                        <option value="">20 minutes</option>
-                        <option value="">30 minutes</option>
-                        <option value="">50 minutes</option>
-                    </select><br><br>
-                    <input type="submit" name="submit" id="submit">
-
-
-                </form>
-            </fieldset>
-        </section>
-
 
     </main>
 
+    <!-- Contact Us Section -->
+    <section class="introduction" id="contact-us">
+        <h3>Contact Us</h3>
+        <div class="red-line"></div>
+        <p>
+            Have questions or want to place an order? Reach out to us and we’ll get back to you as soon as possible!
+        </p>
+
+        <div class="sec1" style="flex-wrap: wrap; gap: 30px; margin-top: 30px; justify-content: center;">
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="f-box">
+            <div class="coloumn1">
+                <h2>Royal Spice</h2>
+                <div class="yellow-line"></div>
+                <p>Experience the taste of royalty with our authentic recipes passed down through generations, now
+                    reimagined for the modern connoisseur.</p>
+                <div class="coloumn1-social">
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-square-instagram"></i></span>
+                    <span><i class="fa-brands fa-square-twitter"></i></span>
+                </div>
+            </div>
+            <div class="coloumn2">
+                <h2>Quick Links</h2>
+                <div class="yellow-line"></div>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">About US</a></p>
+                <p><a href="#">Menu</a></p>
+                <p><a href="#">Services</a></p>
+                <p><a href="#">Contact</a></p>
+
+            </div>
+            <div class="coloumn3">
+                <h2>Contact Info</h2>
+                <div class="yellow-line"></div>
+                <p> <span><i class="fa-solid fa-location-dot" style="color: #FFD43B;"></i></span> 123 Royal Avenue,
+                    Culinary District</p>
+                <p><span><i class="fa-solid fa-phone" style="color: #FFD43B;"></i></span>(555) 123-ROYAL</p>
+                <p> <span><i class="fa-solid fa-envelope" style="color: #FFD43B;"></i></span>info@royalspice.com</p>
+                <p><span><i class="fa-solid fa-clock" style="color: #FFD43B;"></i></span>Mon-Sun: 11:00 AM - 11:00 PM
+                </p>
+            </div>
+        </div>
+        <div class="f-border">
+            <p>&copy; 2023 Royal Spice Restaurant. All rights reserved. | Designed with <i class="fa-solid fa-heart"
+                    style="color: #FFD43B;"></i> By Muzammil</p>
+        </div>
+
+        <!-- <div>&copy;2026 Royal Spice Restaurant – All Rights Reserved</div>
+        <center>
+            <i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;<i class="fa-brands fa-instagram">&nbsp;&nbsp;</i><i
+                class="fa-brands fa-square-twitter"></i>
+        </center>
+        <div>
+            <span> <sup>Developed By Muzammil</sup>
+            </span>
+        </div> -->
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
